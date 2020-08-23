@@ -22,10 +22,10 @@
       font-size: 18px;
       font-weight: bold; }
     .bookmarks .bookmark.disabled {
-      background: #00000017;
+      background-color: #00000017;
       border: none; }
       .bookmarks .bookmark.disabled * {
         color: #b6b6b6;
-        --webkit-text-fill-color: #b6b6b6; }
+        -webkit-text-fill-color: #b6b6b6; }
 
 /*# sourceMappingURL=bookmark.css.map */

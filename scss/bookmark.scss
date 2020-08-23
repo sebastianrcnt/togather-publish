@@ -28,12 +28,12 @@
     }
 
     &.disabled {
-      background: #00000017;
+      background-color: #00000017;
       border: none;
 
       * {
         color: #b6b6b6;
-        --webkit-text-fill-color: #b6b6b6;
+        -webkit-text-fill-color: #b6b6b6;
       }
     }
   }
