@@ -1,0 +1,144 @@
+@import "./import.scss";
+// UTILS
+// Color ClassNames
+.main-color {
+  color: $main_color;
+  -webkit-text-fill-color: $main_color;
+}
+.sub-color {
+  color: $sub_color;
+  -webkit-text-fill-color: $sub_color;
+}
+.ash-color {
+  color: $ash_color;
+  -webkit-text-fill-color: $ash_color;
+}
+.grey-color {
+  color: $grey_color;
+  -webkit-text-fill-color: $grey_color;
+}
+
+// Sizing
+.full-width {
+  width: 100%;
+}
+
+// UTILLS
+.no-border {
+  border: none;
+}
+
+// Flexbox Layout
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-expanded {
+  flex: 1;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  align-self: center;
+}
+
+// Typograhpy
+@for $i from 1 through 100 {
+  .font-size-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+@for $i from 1 through 10 {
+  .font-weight-#{$i} {
+    font-weight: #{$i * 100};
+  }
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-center {
+  text-align: center;
+}
+
+@for $i from 1 through 100 {
+  .br-#{$i} {
+    border-radius: #{$i}px;
+  }
+}
+
+// Padding
+@for $i from 1 through 500 {
+  .p-#{$i} {
+    padding: #{$i}px;
+  }
+  .pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+
+  .pr-#{$i} {
+    padding-right: #{$i}px;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+
+  .px-#{$i} {
+    padding-right: #{$i}px;
+    padding-left: #{$i}px;
+  }
+
+  .py-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+}
+
+// Margin
+
+@for $i from 1 through 500 {
+  .m-#{$i} {
+    margin: #{$i}px;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+
+  .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+
+  .mx-#{$i} {
+    margin-right: #{$i}px;
+    margin-left: #{$i}px;
+  }
+
+  .my-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+}

@@ -1,0 +1,12 @@
+// Colors
+$main_color: #4fcee4;
+$sub_color: #2ab2e7;
+$ash_color: #b6b6b6;
+$grey_color: grey;
+
+@mixin flex($flex-direction, $justify-content, $align-items) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

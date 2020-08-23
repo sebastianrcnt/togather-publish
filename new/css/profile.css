@@ -1,0 +1,53 @@
+.profile {
+  background-color: #FAFAFA; }
+  .profile img.profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    border: 1px solid #707070;
+    align-self: flex-start;
+    overflow: hidden;
+    background: grey; }
+  .profile .profile-info {
+    flex: 1; }
+    .profile .profile-info p {
+      font-size: 15px;
+      line-height: 22px; }
+
+#history .col1 {
+  width: 60px;
+  margin-right: 23px;
+  line-height: 0; }
+  #history .col1 p.title {
+    margin-top: -4px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    color: #000000; }
+  #history .col1 small.date {
+    text-align: left;
+    font-size: 10px;
+    letter-spacing: -0.2px;
+    color: #707070;
+    opacity: 1; }
+#history .col2 {
+  flex: 1; }
+  #history .col2 .description {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.24px;
+    color: #707070;
+    opacity: 1; }
+
+.actions .action {
+  align-items: center; }
+  .actions .action span.material-icons {
+    width: 24px;
+    height: 24px;
+    font-size: 22px; }
+
+.alerts .alert {
+  padding-bottom: 18.5px;
+  margin-bottom: 17.5px;
+  border-bottom: 1px solid #B6B6B6; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvcHJvZmlsZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UseUJBQXlCLEVBQUE7RUFDekI7SUFDRSxZQUFZO0lBQ1osYUFBYTtJQUNiLG9CQUFvQjtJQUNwQix5QkFBeUI7SUFDekIsc0JBQXNCO0lBQ3RCLGdCQUFnQjtJQUNoQixnQkFBZ0IsRUFBQTtFQUdsQjtJQUNFLE9BQU8sRUFBQTtJQUVQO01BQ0UsZUFBZTtNQUNmLGlCQUFpQixFQUFBOztBQU1yQjtFQUNFLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsY0FBYyxFQUFBO0VBRWQ7SUFDRSxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLHVCQUF1QjtJQUN2QixjQUFjLEVBQUE7RUFFaEI7SUFDRSxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLHNCQUFzQjtJQUN0QixjQUFjO0lBQ2QsVUFBVSxFQUFBO0FBSWQ7RUFDRSxPQUFPLEVBQUE7RUFDUDtJQUNFLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsdUJBQXVCO0lBQ3ZCLGNBQWM7SUFDZCxVQUFVLEVBQUE7O0FBTWQ7RUFDRSxtQkFBbUIsRUFBQTtFQUNuQjtJQUNFLFdBQVc7SUFDWCxZQUFZO0lBQ1osZUFBZSxFQUFBOztBQU9uQjtFQUNFLHNCQUFzQjtFQUN0QixxQkFBcUI7RUFDckIsZ0NBQWdDLEVBQUEiLCJmaWxlIjoicHJvZmlsZS5jc3MifQ== */

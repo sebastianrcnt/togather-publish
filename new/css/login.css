@@ -1,0 +1,27 @@
+.content {
+  padding: 40px;
+  color: white;
+  font-weight: 300;
+  background: transparent linear-gradient(180deg, #2ab2e7 0%, #4fcee4 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: darken; }
+  .content form.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; }
+  .content input:not([type="submit"]) {
+    width: 80%;
+    border-bottom: 1px solid white; }
+    .content input:not([type="submit"])::-moz-placeholder {
+      color: white; }
+    .content input:not([type="submit"]):-ms-input-placeholder {
+      color: white; }
+    .content input:not([type="submit"])::-ms-input-placeholder {
+      color: white; }
+    .content input:not([type="submit"])::placeholder {
+      color: white; }
+  .content input[type="submit"] {
+    background-color: white;
+    color: #4fcee4; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvbG9naW4uc2NzcyIsIi4uL3Njc3MvaW1wb3J0LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0E7RUFDRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLGdCQUFnQjtFQU1oQixxR0FDMEI7RUFDMUIsc0JBQXNCLEVBQUE7RUFOdEI7SUNEQSxhQUFhO0lBQ2Isc0JEQ3NCO0lDQXRCLHlCREFnQztJQ0NoQyxtQkREd0MsRUFBQTtFQU94QztJQUNFLFVBQVU7SUFDViw4QkFBOEIsRUFBQTtJQUU5QjtNQUNFLFlBQVksRUFBQTtJQURkO01BQ0UsWUFBWSxFQUFBO0lBRGQ7TUFDRSxZQUFZLEVBQUE7SUFEZDtNQUNFLFlBQVksRUFBQTtFQUloQjtJQUNFLHVCQUF1QjtJQUN2QixjQzFCZ0IsRUFBQSIsImZpbGUiOiJsb2dpbi5jc3MifQ== */

@@ -1,0 +1,76 @@
+@import "./import.scss";
+
+.profile {
+  background-color: #FAFAFA;
+  img.profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    border: 1px solid #707070;
+    align-self: flex-start;
+    overflow: hidden;
+    background: grey;
+  }
+
+  .profile-info {
+    flex: 1;
+
+    p {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+}
+
+#history {
+  .col1 {
+    width: 60px;
+    margin-right: 23px;
+    line-height: 0;
+
+    p.title {
+      margin-top: -4px;
+      font-size: 12px;
+      letter-spacing: -0.24px;
+      color: #000000;
+    }
+    small.date {
+      text-align: left;
+      font-size: 10px;
+      letter-spacing: -0.2px;
+      color: #707070;
+      opacity: 1;
+    }
+  }
+
+  .col2 {
+    flex: 1;
+    .description {
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: -0.24px;
+      color: #707070;
+      opacity: 1;
+    }
+  }
+}
+
+.actions {
+  .action {
+    align-items: center;
+    span.material-icons {
+      width: 24px;
+      height: 24px;
+      font-size: 22px;
+    }
+  }
+}
+
+
+.alerts {
+  .alert {
+    padding-bottom: 18.5px;
+    margin-bottom: 17.5px;
+    border-bottom: 1px solid #B6B6B6;
+  }
+}

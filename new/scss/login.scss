@@ -1,0 +1,30 @@
+@import "./import.scss";
+
+// 페이지별 스타일
+.content {
+  padding: 40px;
+  color: white;
+  font-weight: 300;
+
+  form.login {
+    @include flex(column, flex-end, center);
+  }
+
+  background: transparent linear-gradient(180deg, #2ab2e7 0%, #4fcee4 100%) 0%
+    0% no-repeat padding-box;
+  mix-blend-mode: darken;
+
+  input:not([type="submit"]) {
+    width: 80%;
+    border-bottom: 1px solid white;
+
+    &::placeholder {
+      color: white;
+    }
+  }
+
+  input[type="submit"] {
+    background-color: white;
+    color: $main_color;
+  }
+}

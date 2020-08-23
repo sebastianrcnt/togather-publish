@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+p,
+a,
+button,
+select,
+textarea,
+input {
+  all: unset; }
+
+h1, h2, h3, h4, h5, h6, p, span {
+  display: block; }
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+  src: url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix") format("embedded-opentype"), url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff") format("woff"), url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf") format("truetype"); }
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot");
+  src: url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix") format("embedded-opentype"), url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff") format("woff"), url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 300;
+  src: url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot");
+  src: url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix") format("embedded-opentype"), url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff") format("woff"), url("http://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf") format("truetype"); }
+* {
+  font-family: "NanumBarunGothic";
+  box-sizing: border-box;
+  flex-shrink: 0; }
+
+.pill.primary {
+  border: 1px solid grey;
+  padding: 10px 0;
+  margin-right: 6px;
+  color: #707070; }
+  .pill.primary.selected {
+    color: white;
+    border: 1px solid #4fcee4;
+    background-color: #4fcee4; }
+
+.pill.secondary {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 8px 16px;
+  color: #707070;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  font-size: 16px; }
+  .pill.secondary.selected {
+    color: #4fcee4;
+    border: 1px solid #4fcee4;
+    background-color: white; }
+
+.togather-action-button {
+  background: #2ab2e7;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 33px;
+  border-radius: 24px;
+  opacity: 1; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvZ2xvYmFsLnNjc3MiLCIuLi9zY3NzL2ltcG9ydC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBOzs7Ozs7Ozs7Ozs7O0VBYUUsVUFBVSxFQUFBOztBQUdaO0VBQ0UsY0FBYyxFQUFBOztBQUdoQjtFQUNFLCtCQUErQjtFQUMvQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLCtFQUErRTtFQUMvRSw2U0FLc0IsRUFBQTtBQUd4QjtFQUNFLCtCQUErQjtFQUMvQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLG1GQUFtRjtFQUNuRix5VEFLc0IsRUFBQTtBQUd4QjtFQUNFLCtCQUErQjtFQUMvQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLG9GQUFvRjtFQUNwRiw0VEFLc0IsRUFBQTtBQUd4QjtFQUNFLCtCQUErQjtFQUMvQixzQkFBc0I7RUFDdEIsY0FBYyxFQUFBOztBQUloQjtFQUNFLHNCQUFzQjtFQUN0QixlQUFlO0VBQ2YsaUJBQWlCO0VBQ2pCLGNBQWMsRUFBQTtFQUNkO0lBQ0UsWUFBWTtJQUNaLHlCQUE2QjtJQUM3Qix5QkMzRWdCLEVBQUE7O0FEK0VwQjtFQUNFLHFCQUFxQjtFQUNyQixzQkFBc0I7RUFDdEIsaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLGVBQWUsRUFBQTtFQUVmO0lBQ0UsY0N6RmdCO0lEMEZoQix5QkFBNkI7SUFDN0IsdUJBQXVCLEVBQUE7O0FBSTNCO0VBQ0UsbUJDL0ZpQjtFRGdHakIsWUFBWTtFQUNaLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLFVBQVUsRUFBQSIsImZpbGUiOiJnbG9iYWwuY3NzIn0= */
