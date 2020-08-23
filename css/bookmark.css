@@ -1,31 +1,85 @@
-.bookmarks {
+.bookmarks,
+.resumes {
   background: #f2f2f2;
   overflow: scroll; }
-  .bookmarks .bookmark {
+  .bookmarks .bookmark,
+  .bookmarks .resume,
+  .resumes .bookmark,
+  .resumes .resume {
     background: white;
     border: 0.5px solid #858585;
-    padding: 20px 15px;
+    padding: 15px 14px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     justify-content: space-between;
     margin-bottom: 10px;
     flex-shrink: 0; }
     .bookmarks .bookmark p,
-    .bookmarks .bookmark h3 {
+    .bookmarks .bookmark h3,
+    .bookmarks .resume p,
+    .bookmarks .resume h3,
+    .resumes .bookmark p,
+    .resumes .bookmark h3,
+    .resumes .resume p,
+    .resumes .resume h3 {
       display: block; }
-    .bookmarks .bookmark p {
+    .bookmarks .bookmark p,
+    .bookmarks .resume p,
+    .resumes .bookmark p,
+    .resumes .resume p {
       font-size: 15px;
       color: #b6b6b6;
       -webkit-text-fill-color: #b6b6b6;
       margin-bottom: 7px; }
-    .bookmarks .bookmark h3 {
+    .bookmarks .bookmark h3,
+    .bookmarks .resume h3,
+    .resumes .bookmark h3,
+    .resumes .resume h3 {
       font-size: 18px;
       font-weight: bold; }
-    .bookmarks .bookmark.disabled {
+    .bookmarks .bookmark.disabled,
+    .bookmarks .resume.disabled,
+    .resumes .bookmark.disabled,
+    .resumes .resume.disabled {
       background-color: #00000017;
       border: none; }
-      .bookmarks .bookmark.disabled * {
+      .bookmarks .bookmark.disabled *,
+      .bookmarks .resume.disabled *,
+      .resumes .bookmark.disabled *,
+      .resumes .resume.disabled * {
         color: #b6b6b6;
         -webkit-text-fill-color: #b6b6b6; }
+    .bookmarks .bookmark.primary,
+    .bookmarks .resume.primary,
+    .resumes .bookmark.primary,
+    .resumes .resume.primary {
+      background: transparent linear-gradient(99deg, #2ab2e7 0%, #4fcee4 100%) 0% 0% no-repeat padding-box;
+      border: none; }
+      .bookmarks .bookmark.primary *,
+      .bookmarks .resume.primary *,
+      .resumes .bookmark.primary *,
+      .resumes .resume.primary * {
+        color: white;
+        -webkit-text-fill-color: white; }
+
+#message {
+  padding: 18px;
+  align-items: center;
+  background-image: url("../img/msg.svg"); }
+  #message input {
+    height: 27px; }
+
+#upload {
+  width: 105px;
+  height: 34px;
+  border: 1px solid #2ab2e7;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #4fcee4;
+  -webkit-text-fill-color: #4fcee4;
+  margin-top: 16px; }
 
 /*# sourceMappingURL=bookmark.css.map */

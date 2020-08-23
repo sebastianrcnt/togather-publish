@@ -1,12 +1,14 @@
 @import "./import.scss";
 
-.bookmarks {
+.bookmarks,
+.resumes {
   background: #f2f2f2;
   overflow: scroll;
-  .bookmark {
+  .bookmark,
+  .resume {
     background: white;
     border: 0.5px solid #858585;
-    padding: 20px 15px;
+    padding: 15px 14px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     justify-content: space-between;
@@ -36,5 +38,39 @@
         -webkit-text-fill-color: #b6b6b6;
       }
     }
+
+    &.primary {
+      background: transparent linear-gradient(99deg, #2ab2e7 0%, #4fcee4 100%)
+        0% 0% no-repeat padding-box;
+      border: none;
+
+      * {
+        color: white;
+        -webkit-text-fill-color: white;
+      }
+    }
   }
+}
+
+#message {
+  padding: 18px;
+  align-items: center;
+  background-image: url("../img/msg.svg");
+  input {
+    height: 27px;
+  }
+}
+
+#upload {
+  width: 105px;
+  height: 34px;
+  border: 1px solid #2ab2e7;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: $main_color;
+  -webkit-text-fill-color: $main_color;
+  margin-top: 16px;
 }
