@@ -74,4 +74,9 @@ input::placeholder {
   color: grey;
   -webkit-text-fill-color: grey; }
 
+#fab {
+  position: fixed;
+  bottom: 75px;
+  right: 0; }
+
 /*# sourceMappingURL=global.css.map */
