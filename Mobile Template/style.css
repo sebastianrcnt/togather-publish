@@ -1,0 +1,43 @@
+.mobile-wrap {
+    margin: auto;
+    width: 375px;
+    min-width: 320px;
+    height: 100%;
+    max-height: 812px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 375px) {
+    .mobile-wrap {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+        position: absolute;
+        top: 0;
+        left: 0;
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+        box-shadow: none;
+   }
+}
+.mobile-wrap:before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    background-color: #fff;
+}
+.mobile {
+    z-index: 99;
+    color: #222;
+    height: 100%;
+    position: relative;
+}
