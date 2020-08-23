@@ -33,6 +33,7 @@
     .infos .info p {
       font-size: 15px;
       color: #b6b6b6;
+      -webkit-text-fill-color: #b6b6b6;
       margin-bottom: 7px; }
     .announcements .announcement h3,
     .announcements .info h3,
