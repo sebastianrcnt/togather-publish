@@ -20,11 +20,13 @@
 
     &::placeholder {
       color: white;
+      -webkit-text-fill-color: white;
     }
   }
 
   input[type="submit"] {
     background-color: white;
     color: $main_color;
+    -webkit-text-fill-color: $main_color;
   }
 }

@@ -12,16 +12,12 @@
   .content input:not([type="submit"]) {
     width: 80%;
     border-bottom: 1px solid white; }
-    .content input:not([type="submit"])::-moz-placeholder {
-      color: white; }
-    .content input:not([type="submit"]):-ms-input-placeholder {
-      color: white; }
-    .content input:not([type="submit"])::-ms-input-placeholder {
-      color: white; }
     .content input:not([type="submit"])::placeholder {
-      color: white; }
+      color: white;
+      -webkit-text-fill-color: white; }
   .content input[type="submit"] {
     background-color: white;
-    color: #4fcee4; }
+    color: #4fcee4;
+    -webkit-text-fill-color: #4fcee4; }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvbG9naW4uc2NzcyIsIi4uL3Njc3MvaW1wb3J0LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0E7RUFDRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLGdCQUFnQjtFQU1oQixxR0FDMEI7RUFDMUIsc0JBQXNCLEVBQUE7RUFOdEI7SUNEQSxhQUFhO0lBQ2Isc0JEQ3NCO0lDQXRCLHlCREFnQztJQ0NoQyxtQkREd0MsRUFBQTtFQU94QztJQUNFLFVBQVU7SUFDViw4QkFBOEIsRUFBQTtJQUU5QjtNQUNFLFlBQVksRUFBQTtJQURkO01BQ0UsWUFBWSxFQUFBO0lBRGQ7TUFDRSxZQUFZLEVBQUE7SUFEZDtNQUNFLFlBQVksRUFBQTtFQUloQjtJQUNFLHVCQUF1QjtJQUN2QixjQzFCZ0IsRUFBQSIsImZpbGUiOiJsb2dpbi5jc3MifQ== */
+/*# sourceMappingURL=login.css.map */
