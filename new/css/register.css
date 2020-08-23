@@ -13,6 +13,8 @@
     border: 1px solid #b6b6b6;
     height: 43px;
     margin-right: 5px; }
+  .content .input-field-row input:only-child {
+    width: 100%; }
   .content .input-field-row .action {
     flex: 1;
     background: #f2f2f2;
