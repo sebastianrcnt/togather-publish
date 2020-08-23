@@ -7,24 +7,28 @@
     <title>Document</title>
 
     <!-- Style files -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="./css/global.css" />
+    <link rel="stylesheet" type="text/css" href="./css/utils.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
     <div class="mobile-wrap">
-      <div class="mobile clearfix">
-        <a href="./announcement-detail.html">공고 상세</a>
-        <a href="./announcement-new.html">공고 작성</a>
-        <a href="./announcements.html">공고 목록</a>
-        <a href="./apply.html">지원하기</a>
-        <a href="./bookmark.html">북마크</a>
-        <a href="./done.html">회원가입 완료</a>
-        <a href="./info-defail.html">채용정보 상세</a>
-        <a href="./infos.html">채용정보 목록</a>
-        <a href="./login.html">로그인</a>
-        <a href="./register.html">회원가입 1단계</a>
-        <a href="./register2.html">회원가입 2단계</a>
-        <a href="./unauthorized.html">로그인/회원가입 요구1</a>
-        <a href="./unauthorized2.html">로그인/회원가입 요구2</a>
+      <div class="mobile clearfix flex-col flex-center main">
+        <h1 class="mb-20 font-size-25">페이지 목록</h1>
+        <a href="./pages/announcement-detail.html">공고 상세</a>
+        <a href="./pages/announcement-new.html">공고 작성</a>
+        <a href="./pages/announcements.html">공고 목록</a>
+        <a href="./pages/apply.html">지원하기</a>
+        <a href="./pages/bookmark.html">북마크</a>
+        <a href="./pages/done.html">회원가입 완료</a>
+        <a href="./pages/info-detail.html">채용정보 상세</a>
+        <a href="./pages/infos.html">채용정보 목록</a>
+        <a href="./pages/login.html">로그인</a>
+        <a href="./pages/register.html">회원가입 1단계</a>
+        <a href="./pages/register2.html">회원가입 2단계</a>
+        <a href="./pages/unauthorized.html">로그인/회원가입 요구1</a>
+        <a href="./pages/unauthorized2.html">로그인/회원가입 요구2</a>
         <!-- Header -->
         <!-- Body -->
       </div>
@@ -33,6 +37,12 @@
     </div>
 
     <!-- Scripts -->
+    <style>
+      .main a {
+        margin-bottom: 5px;
+        font-size: 20px;
+      }
+    </style>
     <script src="script.js"></script>
   </body>
 </html>
