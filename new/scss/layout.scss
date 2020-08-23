@@ -6,7 +6,8 @@ $bottom_bar_height:73px;
 .top-bar {
   position: absolute;
   top: 0;
-  background: white;
+  background-color: white;
+  z-index: 500;
   height: $top_bar_height;
   width: 100%;
   @include flex(row, space-between, center);
