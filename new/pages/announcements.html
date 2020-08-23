@@ -53,14 +53,23 @@
               스터디
             </div>
           </div>
-          <div class="search flex-row full-width px-15 mb-8">
+          <div
+            class="search flex-row full-width px-15 mb-8"
+            style="position: relative;"
+          >
+            <span
+              class="material-icons ash-color"
+              style="position: absolute; top: 6.5px; left: 25px;"
+              >search</span
+            >
             <input
               type="text"
               class="flex-expanded br-18 font-center mr-5"
               style="border: 1px solid grey;"
               placeholder="팀공고 검색"
             />
-            <img src="../img/filter.svg" id="toggle-filter" alt="" />
+            <!-- <img src="../img/filter.svg" id="toggle-filter" alt="" /> -->
+            <span class="material-icons font-size-35" id="toggle-filter">filter_list</span>
           </div>
           <div
             id="search-filter"
@@ -171,7 +180,8 @@
       $(document).ready(() => {
         $("#search-filter").hide();
         $("#toggle-filter").on("click", () => {
-          $("#search-filter").toggle();
+          $("#search-filter").slideToggle();
+          $("#toggle-filter").toggleClass("main-color");
         });
       });
     </script>
