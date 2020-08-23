@@ -1,0 +1,24 @@
+.title {
+  background-color: #fafafa; }
+  .title .action {
+    border: 1px solid #2ab2e7;
+    padding: 8px 23px;
+    color: #2ab2e7;
+    border-radius: 21px; }
+    .title .action span {
+      font-size: 18px; }
+
+.details > * {
+  flex-shrink: 0; }
+.details * {
+  font-size: 15px; }
+.details table {
+  text-align: left; }
+  .details table tr {
+    padding: 5px; }
+  .details table th {
+    width: 30%; }
+  .details table td {
+    font-weight: 300; }
+
+/*# sourceMappingURL=announcement-detail.css.map */

@@ -384,14 +384,14 @@
         $("#history").hide();
 
         $("#expand").on("click", () => {
-          $("#expand").hide();
-          $("#shrink").show();
-          $("#history").show();
+          $("#expand").toggle()
+          $("#shrink").toggle()
+          $("#history").slideToggle()
         });
         $("#shrink").on("click", () => {
-          $("#expand").show();
-          $("#shrink").hide();
-          $("#history").hide();
+          $("#expand").toggle()
+          $("#shrink").toggle()
+          $("#history").slideToggle()
         });
       });
     </script>
