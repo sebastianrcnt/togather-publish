@@ -1,40 +1,6 @@
 
 .container.page-announcement-detail,
 .container.page-info-detail {
-  .title {
-    background-color: #fafafa;
-    .action {
-      border: 1px solid $sub_color;
-      padding: 8px 23px;
-      color: $sub_color;
-      border-radius: 21px;
-
-      span {
-        font-size: 18px;
-      }
-    }
-  }
-
-  .details {
-    & > * {
-      flex-shrink: 0;
-    }
-    * {
-      font-size: 15px;
-    }
-    table {
-      text-align: left;
-      tr {
-        padding: 5px;
-      }
-      th {
-        width: 30%;
-      }
-      td {
-        font-weight: 300;
-      }
-    }
-  }
 }
 
 .container.page-apply {
