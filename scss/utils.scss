@@ -105,6 +105,10 @@
     padding-right: #{$i}px;
   }
 
+  .pl-#{$i} {
+    padding-left: #{$i}px;
+  }
+
   .pb-#{$i} {
     padding-bottom: #{$i}px;
   }
@@ -131,6 +135,10 @@
   }
 
   .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+
+  .ml-#{$i} {
     margin-right: #{$i}px;
   }
 
