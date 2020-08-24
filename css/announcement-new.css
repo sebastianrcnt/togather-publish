@@ -3,7 +3,8 @@
   height: 31px;
   display: flex;
   font-weight: bold;
-  align-items: center; }
+  align-items: center;
+  font-size: 18px; }
 
 .field-input {
   flex: 1;
