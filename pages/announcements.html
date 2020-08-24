@@ -18,7 +18,6 @@
     />
 
     <!-- Style files -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
     <link rel="stylesheet" type="text/css" href="../style.css" />
     <link rel="stylesheet" type="text/css" href="../css/utils.css" />
     <link rel="stylesheet" type="text/css" href="../css/global.css" />
@@ -31,80 +30,83 @@
     <div class="mobile-wrap">
       <div class="mobile clearfix">
         <div class="top-bar">
-          <h1>공고 검색</h1>
+          <h1>공고 목록</h1>
           <img src="../img/top-logo.svg" alt="" />
         </div>
         <!-- Content Start -->
         <div class="content">
-          <div
-            class="announcement-category-list flex-row full-width px-15 mb-19"
-          >
+          <section>
             <div
-              class="flex-expanded flex-center pill primary font-bold selected"
+              class="announcement-category-list flex-row full-width px-15 mb-19"
             >
-              전체
-            </div>
-            <div class="flex-expanded flex-center pill primary font-bold">
-              창업
-            </div>
-            <div class="flex-expanded flex-center pill primary font-bold">
-              공모전
-            </div>
-            <div class="flex-expanded flex-center pill primary font-bold">
-              스터디
-            </div>
-          </div>
-          <div
-            class="search-input flex-row full-width px-15 mb-17"
-            style="position: relative;"
-          >
-            <span
-              class="material-icons ash-color"
-              style="position: absolute; top: 6.5px; left: 25px;"
-              >search</span
-            >
-            <input
-              type="text"
-              class="flex-expanded br-18 font-center mr-5"
-              style="border: 1px solid #B6B6B6; height: 36px;"
-              placeholder="팀공고 검색"
-            />
-            <!-- <img src="../img/filter.svg" id="toggle-filter" alt="" /> -->
-            <span class="material-icons font-size-35" id="toggle-filter"
-              >filter_list</span
-            >
-          </div>
-          <div
-            id="search-filter"
-            class="search-filter full-width flex-column px-15 mt-10 pb-15"
-          >
-            <div class="job-filter mb-15">
-              <h2 class="main-color font-size-20 mb-9">직무</h2>
-              <div class="">
-                <div class="pill secondary selected">서비스 기획</div>
-                <div class="pill secondary">사업/전략 기획</div>
-                <div class="pill secondary">마케팅</div>
-                <div class="pill secondary">디자인</div>
-                <div class="pill secondary">개발</div>
-                <div class="pill secondary">그 외</div>
+              <div
+                class="flex-expanded flex-center pill primary font-bold selected"
+              >
+                전체
+              </div>
+              <div class="flex-expanded flex-center pill primary font-bold">
+                창업
+              </div>
+              <div class="flex-expanded flex-center pill primary font-bold">
+                공모전
+              </div>
+              <div class="flex-expanded flex-center pill primary font-bold">
+                스터디
               </div>
             </div>
-            <div class="job-filter">
-              <h2 class="main-color font-size-20 mb-9">산업</h2>
-              <div class="">
-                <div class="pill secondary selected">패션</div>
-                <div class="pill secondary">뷰티</div>
-                <div class="pill secondary">식품</div>
-                <div class="pill secondary">게임</div>
-                <div class="pill secondary">건강</div>
-                <div class="pill secondary">콘텐츠</div>
+            <div
+              id="search"
+              class="search-input flex-row full-width px-15 pb-17"
+              style="position: relative;"
+            >
+              <span
+                class="material-icons ash-color"
+                style="position: absolute; top: 6.5px; left: 25px;"
+                >search</span
+              >
+              <input
+                type="text"
+                class="flex-expanded br-18 font-center mr-5"
+                style="border: 1px solid #b6b6b6; height: 36px;"
+                placeholder="팀공고 검색"
+              />
+              <span class="material-icons font-size-35" id="toggle-filter"
+                >filter_list</span
+              >
+            </div>
+            <div
+              id="search-filter"
+              class="search-filter full-width flex-column px-15 mt-10 pb-15"
+            >
+              <div class="job-filter mb-15">
+                <h2 class="main-color font-size-20 mb-25">직무</h2>
+                <div class="">
+                  <div class="pill secondary selected">서비스 기획</div>
+                  <div class="pill secondary">사업/전략 기획</div>
+                  <div class="pill secondary">마케팅</div>
+                  <div class="pill secondary">디자인</div>
+                  <div class="pill secondary">개발</div>
+                  <div class="pill secondary">그 외</div>
+                </div>
+              </div>
+              <div class="job-filter">
+                <h2 class="main-color font-size-20 mb-9">산업</h2>
+                <div class="">
+                  <div class="pill secondary selected">패션</div>
+                  <div class="pill secondary">뷰티</div>
+                  <div class="pill secondary">식품</div>
+                  <div class="pill secondary">게임</div>
+                  <div class="pill secondary">건강</div>
+                  <div class="pill secondary">콘텐츠</div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
+
           <div
             class="announcements full-width full-height flex-expanded py-16 px-12 flex-column"
           >
-          <img id="fab" src="../img/fab.svg"></img>
+            <img id="fab" src="../img/fab.svg" />
             <div class="announcement flex-column">
               <p><b>회사명 | 개발자</b> | 마감 2020.05.05. | 조회수 108</p>
               <h3>2020 하반기 모집</h3>
