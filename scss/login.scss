@@ -23,6 +23,10 @@
       -webkit-text-fill-color: white;
     }
   }
+  
+  input[type='password']::placeholder {
+    font-family: 'NanumSquare';
+  }
 
   input[type="submit"] {
     background-color: white;

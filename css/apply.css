@@ -7,11 +7,14 @@
   border-radius: 14px;
   color: white; }
   .apply-modal .select-wrapper {
+    width: 246px;
     border-radius: 16px;
     padding: 6px 12px 6px 18px;
     border: 1px solid white;
     color: white;
     font-size: 15px; }
+    .apply-modal .select-wrapper select {
+      font-weight: bold; }
     .apply-modal .select-wrapper .arrow-expand {
       transform: rotate(-90deg);
       position: relative;

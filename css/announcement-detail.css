@@ -13,9 +13,8 @@
 .details * {
   font-size: 15px; }
 .details table {
-  text-align: left; }
-  .details table tr {
-    padding: 5px; }
+  text-align: left;
+  line-height: 22px; }
   .details table th {
     width: 30%; }
   .details table td {

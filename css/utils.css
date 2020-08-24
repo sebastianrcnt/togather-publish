@@ -370,13 +370,16 @@
   font-weight: 1000; }
 
 .font-light {
-  font-weight: 300; }
+  font-weight: lighter; }
 
 .font-normal {
-  font-weight: 400; }
+  font-weight: normal; }
 
 .font-bold {
-  font-weight: 700; }
+  font-weight: bold; }
+
+.font-bolder {
+  font-weight: bolder; }
 
 .font-center {
   text-align: center; }

@@ -8,7 +8,7 @@
   .resume {
     background: white;
     border: 0.5px solid #858585;
-    padding: 15px 14px;
+    padding: 14px 15px 13px 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     justify-content: space-between;
@@ -30,11 +30,11 @@
     }
 
     &.disabled {
-      background-color: #00000017;
+      background-color: #FAFAFA;
       border: none;
 
       * {
-        color: #b6b6b6;
+        color: #B6B6B6;
         -webkit-text-fill-color: #b6b6b6;
       }
     }

@@ -1,0 +1,33 @@
+.profile-picture-row img#set {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  object-fit: cover; }
+
+input {
+  background: #fafafa 0% 0% no-repeat padding-box;
+  border: 0.5px solid #b6b6b6;
+  height: 44px;
+  flex: 1; }
+
+.action {
+  width: 74px;
+  height: 45px;
+  border: 0.5px solid #b6b6b6;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  color: #707070;
+  -webkit-text-fill-color: #707070; }
+
+.field-name {
+  width: 69px;
+  display: flex;
+  align-items: center; }
+
+span#textarea-placeholder {
+  position: absolute;
+  color: grey;
+  right: 6px;
+  bottom: 6px; }
+
+/*# sourceMappingURL=profile-edit.css.map */

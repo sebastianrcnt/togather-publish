@@ -10,10 +10,13 @@ $bottom_bar_height:73px;
   z-index: 500;
   height: $top_bar_height;
   width: 100%;
+  font-size: 18px;
+  font-weight: bold;
   @include flex(row, space-between, center);
   padding: 15px;
 
   h1 {
+    font-weight: bolder;
     color: #707070;
     -webkit-text-fill-color: #707070;
   }
@@ -36,7 +39,9 @@ $bottom_bar_height:73px;
   position: fixed;
   bottom: 0;
   z-index: 500;
+  border-top: 1px solid #B6B6B6;
   width: 100%;
+  justify-content: space-evenly;
 
   @include flex(row, space-around, center);
   .menu {
@@ -58,13 +63,13 @@ $bottom_bar_height:73px;
 
     &.selected {
       span {
-        fill: $main_color;
-        color: $main_color;
-        -webkit-text-fill-color: $main_color;
+        fill: $sub_color;
+        color: $sub_color;
+        -webkit-text-fill-color: $sub_color;
       }
       div {
-        color: $main_color;
-        -webkit-text-fill-color: $main_color;
+        color: $sub_color;
+        -webkit-text-fill-color: $sub_color;
       }
     }
   }

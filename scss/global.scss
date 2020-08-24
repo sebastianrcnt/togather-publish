@@ -20,50 +20,13 @@ h1, h2, h3, h4, h5, h6, p, span {
   display: block;
 }
 
-@font-face {
-  font-family: "NanumBarunGothic";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
-  src: url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff")
-      format("woff"),
-    url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf")
-      format("truetype");
-}
-
-@font-face {
-  font-family: "NanumBarunGothic";
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot");
-  src: url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff")
-      format("woff"),
-    url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf")
-      format("truetype");
-}
-
-@font-face {
-  font-family: "NanumBarunGothic";
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot");
-  src: url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff")
-      format("woff"),
-    url("https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf")
-      format("truetype");
-}
-
 * {
-  font-family: "NanumBarunGothic";
+  font-family: 'NanumSquare', sans-serif;
   box-sizing: border-box;
   flex-shrink: 0;
 }
+
+
 
 // Components
 .pill.primary {
@@ -71,6 +34,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   padding: 10px 0;
   margin-right: 6px;
   color: #707070;
+  font-weight: bold;
   &.selected {
     color: white;
     border: 1px solid $main_color;
@@ -83,8 +47,8 @@ h1, h2, h3, h4, h5, h6, p, span {
   border: 1px solid grey;
   padding: 8px 16px;
   color: #707070;
-  margin-right: 3px;
-  margin-bottom: 3px;
+  margin-right: 4px;
+  margin-bottom: 4px;
   font-size: 16px;
 
   &.selected {
@@ -110,6 +74,6 @@ input::placeholder {
 
 #fab {
   position: fixed;
-  bottom: 75px;
-  right: 0;
+  bottom: 78px;
+  right: 3px;
 }

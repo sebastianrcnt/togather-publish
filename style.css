@@ -23,7 +23,7 @@
     position: absolute;
     top: 0;
     /* max-height: 736px; */
-    /* max-height: unset; */
+    max-height: unset;
     left: 0;
     -ms-transform: translate(0%, 0%);
     transform: translate(0%, 0%);

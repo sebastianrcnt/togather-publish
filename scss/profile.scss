@@ -72,5 +72,9 @@
     padding-bottom: 18.5px;
     margin-bottom: 17.5px;
     border-bottom: 1px solid #B6B6B6;
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
