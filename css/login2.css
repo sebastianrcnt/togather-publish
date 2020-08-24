@@ -1,0 +1,28 @@
+form .inputs input {
+  border-bottom: 1px solid #4fcee4;
+  padding-bottom: 6.5px;
+  width: 270px;
+  color: #4fcee4;
+  -webkit-text-fill-color: #4fcee4; }
+  form .inputs input::placeholder {
+    color: #4fcee4;
+    -webkit-text-fill-color: #4fcee4; }
+  form .inputs input[type="password"] {
+    font-family: sans-serif; }
+    form .inputs input[type="password"]::placeholder {
+      font-family: "NanumSquare"; }
+form .actions button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  padding: 12px 0px;
+  background: #4fcee4;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  -webkit-text-fill-color: white; }
+
+/*# sourceMappingURL=login2.css.map */
