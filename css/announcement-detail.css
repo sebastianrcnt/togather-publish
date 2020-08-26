@@ -21,8 +21,8 @@
     font-weight: 300; }
 
 .profile {
-  background-color: #FAFAFA;
-  z-index: 2000; }
+  z-index: 600;
+  background-color: #fafafa; }
   .profile img.profile-image {
     width: 130px;
     height: 130px;
@@ -62,7 +62,10 @@
     opacity: 1; }
 
 #profile-backdrop-filter {
+  top: 0;
+  z-index: 550;
   backdrop-filter: brightness(60%);
+  -webkit-backdrop-filter: brightness(60%);
   position: fixed; }
 
 /*# sourceMappingURL=announcement-detail.css.map */

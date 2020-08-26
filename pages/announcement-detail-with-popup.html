@@ -46,8 +46,6 @@
         </div>
         <!-- Content Start -->
         <div class="content">
-          <div id="profile-backdrop-filter"></div>
-
           <div class="title flex-column full-width py-23">
             <div class="font-center font-bolder sub-color font-size-26 mb-9">
               2020 하반기 모집 (공고 제목)
@@ -111,12 +109,17 @@
           <div>마이페이지</div>
         </a>
       </div>
+      <div id="profile-backdrop-filter"></div>
       <div
         id="profile"
         class="profile full-width px-23 py-31 flex-row"
         style="position: fixed"
       >
-        <img src="../img/close.svg" alt="" style="position: absolute; right: 10px; top: 10px;">
+        <img
+          src="../img/close.svg"
+          alt=""
+          style="position: absolute; right: 10px; top: 10px"
+        />
         <img src="" alt="" class="profile-image mr-17" />
 
         <!-- 프로필 정보-->
@@ -199,6 +202,9 @@
           );
         });
 
+
+        //   backdrop-filter: brightness(60%);
+//   -webkit-backdrop-filter: brightness(60%);
         // 프로필 리사이징 코드
         const screenHeight = parseFloat($(".mobile-wrap").css("height"));
         const profileHeight = parseFloat($("#profile").css("height"));
@@ -206,7 +212,14 @@
           screenHeight > profileHeight
             ? (screenHeight - profileHeight) / 2
             : 100;
-        $("#profile").css("top", topMargin + "px");
+        $(".profile").css("top", topMargin + "px");
+
+        // sarafi 인 경우 backdrop filter가 작동하지 않아 box-shadow 로 대체
+        var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        if (is_safari) {
+          $('.profile').css('box-shadow', '0px 0px 100vmax rgba(0,0,0,1)')
+        }
+
       });
     </script>
     <script src="../script.js"></script>
