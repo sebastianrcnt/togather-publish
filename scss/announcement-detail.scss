@@ -34,7 +34,7 @@
 }
 
 .profile {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   z-index: 2000;
   img.profile-image {
     width: 130px;
@@ -91,5 +91,6 @@
 
 #profile-backdrop-filter {
   backdrop-filter: brightness(60%);
+  -webkit-backdrop-filter: brightness(60%);
   position: fixed;
 }
